@@ -4,6 +4,7 @@
     {
         static void Main(string[] args)
         {
+            //check folder BTT101 in drive for quiz ideas
             Console.WriteLine("Hello, World!");
         }
     }
