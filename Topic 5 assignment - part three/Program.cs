@@ -35,7 +35,8 @@
             if (answerTwo.ToUpper() == "SON OF A WITCH")
             {
                 Console.WriteLine(" ");
-                Console.WriteLine("Correct! ");
+                Console.WriteLine("Correct! The other titles in order are Wicked: The Life and Times of the Wicked Witch of the West,");
+                Console.WriteLine("A Lion Among Men, and Out of Oz");
                 score += 1;
             }
 
@@ -71,15 +72,15 @@
             else if (answerThree.ToLower() == "c")
             {
                 Console.WriteLine(" ");
-                Console.WriteLine("Incorrect. There is a Goat in the Wicked series with a very important role in the story,");
-                Console.WriteLine("but he is not in the original story of The Wizard of Oz");
+                Console.WriteLine("Incorrect. The only Goat of significance in any Ozian stories was Dr. Dillamond");
+                //Console.WriteLine("He was well known for his "); <-- think of a way to Ozify intellect/intelligence
                 Console.WriteLine("The answer was b");
             }
 
             else if (answerThree.ToLower() == "d")
             {
                 Console.WriteLine(" ");
-                Console.WriteLine("Incorrect. You may be thinking of Courage the Cowardly Dog");
+                Console.WriteLine("Incorrect. You may have been thinking of Toto, who was not well known for braverism");
                 Console.WriteLine("The answer was b");
             }
 
@@ -98,6 +99,7 @@
             {
                 Console.WriteLine(" ");
                 Console.WriteLine("Correct! The house got there by way of supernatural disaster, and fell directly on her head");
+                Console.WriteLine("When it happened, many citizens of Oz rejoicified.");
                 score += 1;
             }
 
@@ -105,11 +107,31 @@
             {
                 Console.WriteLine(" ");
                 Console.WriteLine("Incorrect. The Wicked Witch of the East was killed by a house that fell on her head");
+                Console.WriteLine("Some might say it was an outward manifestorium of her twisted nature");
             }
 
-            else { Console.WriteLine("Do you know what true or false means? That answer was so incorrect it wasn't even an option"); }
+            else
+            {
+                Console.WriteLine(" ");
+                Console.WriteLine("Do you know what true or false means? That answer was so incorrect it wasn't even an option");
+            }
 
-            
+            if (score > 0 && score < 100)
+            {
+                Console.WriteLine(" ");
+                Console.WriteLine("Your final score was " + score + ", or " + (score / 4 * 100) + "%");
+                //Write a line here in what I like to call Ozified language
+            }
+
+            else if (score == 0)
+            {
+                Console.WriteLine("Your final score was 0.");
+                Console.WriteLine("You clearly need to spend some time culturizing yourself");
+                Console.WriteLine("You didn't even know that it was a lion looking for courage");
+                Console.WriteLine("How are you so unfamiliar with The Wizard of Oz");
+            }
+
+            else { Console.WriteLine("Congratulotions! You are clearly well educated about the world of Oz"); }
         }
     }
 }
