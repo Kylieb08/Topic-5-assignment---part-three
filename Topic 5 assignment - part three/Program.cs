@@ -73,7 +73,7 @@
             {
                 Console.WriteLine(" ");
                 Console.WriteLine("Incorrect. The only Goat of significance in any Ozian stories was Dr. Dillamond");
-                //Console.WriteLine("He was well known for his "); <-- think of a way to Ozify intellect/intelligence
+                Console.WriteLine("He was well known for his studification");
                 Console.WriteLine("The answer was b");
             }
 
