@@ -120,7 +120,6 @@
             {
                 Console.WriteLine(" ");
                 Console.WriteLine("Your final score was " + score + ", or " + (score / 4 * 100) + "%");
-                //Write a line here in what I like to call Ozified language
             }
 
             else if (score == 0)
