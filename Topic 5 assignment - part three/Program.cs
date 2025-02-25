@@ -73,14 +73,14 @@
             {
                 Console.WriteLine(" ");
                 Console.WriteLine("Incorrect. The only Goat of significance in any Ozian stories was Dr. Dillamond");
-                Console.WriteLine("Though he was well known for his studification");
+                Console.WriteLine("Though he was well known for his studies");
                 Console.WriteLine("The answer was b");
             }
 
             else if (answerThree.ToLower() == "d")
             {
                 Console.WriteLine(" ");
-                Console.WriteLine("Incorrect. You may have been thinking of Toto, who was not well known for braverism");
+                Console.WriteLine("Incorrect. You may have been thinking of Toto, who was not well known for bravery");
                 Console.WriteLine("The answer was b");
             }
 
@@ -99,7 +99,6 @@
             {
                 Console.WriteLine(" ");
                 Console.WriteLine("Correct! The house got there by way of supernatural disaster, and fell directly on her head");
-                Console.WriteLine("When it happened, many citizens of Oz rejoicified.");
                 score += 1;
             }
 
@@ -107,7 +106,6 @@
             {
                 Console.WriteLine(" ");
                 Console.WriteLine("Incorrect. The Wicked Witch of the East was killed by a house that fell on her head");
-                Console.WriteLine("Some might say it was an outward manifestorium of her twisted nature");
             }
 
             else
@@ -125,12 +123,12 @@
             else if (score == 0)
             {
                 Console.WriteLine("Your final score was 0.");
-                Console.WriteLine("You clearly need to spend some time culturizing yourself");
+                Console.WriteLine("You clearly need to spend some time culturing yourself");
                 Console.WriteLine("You didn't even know that it was a lion looking for courage");
                 Console.WriteLine("How are you so unfamiliar with The Wizard of Oz");
             }
 
-            else { Console.WriteLine("Congratulotions! You are clearly well educated about the world of Oz"); }
+            else { Console.WriteLine("Congratulations! You are clearly well educated about the world of Oz"); }
         }
     }
 }
